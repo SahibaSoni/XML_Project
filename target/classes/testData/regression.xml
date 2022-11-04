@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression ">
+
+	<test name="LoginTest">
+
+		<parameter name="userName"  value="demo@techfios.com" ></parameter>
+		<parameter name="password"  value="abc123" />
+		<parameter name="dashBoardHeaderValidation"  value="Dashboard" />
+		<parameter name="fullName"  value="Soni" />
+		<parameter name="company"  value="Amazon" />
+		<parameter name="email"  value="sonisahiba@gmail.com" />
+		<parameter name="phone"  value="5468976" />
+		<parameter name="Address"  value="HiddenRidge" />
+		<parameter name="City"  value="Irving" />
+		<parameter name="State"  value="Tx" />
+		<parameter name="ZipCode"  value="64785" />
+		<parameter name="Country"  value="United States" />
+		
+
+		<classes>
+
+			<class name="test.LoginTest" />
+            <class name="test.AddCustomerTest" />
+
+		</classes>
+
+    </test>
+
+</suite>
